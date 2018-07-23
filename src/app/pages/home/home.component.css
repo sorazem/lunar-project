@@ -1,0 +1,57 @@
+body {
+  background-image: url('/assets/img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+body > row {
+    margin-bottom: 35vh;
+}
+
+h2 {
+  color: #133046;
+  font-family: 'Clicker Script', cursive;
+  text-align: center;
+}
+
+body > section:first-of-type {
+  margin-top: 35vw;
+}
+
+.row {
+  padding: 7vh;
+  margin-bottom: 0px;
+  background-color: #f6f6f6;
+}
+
+.data {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.style {
+  background-color: #EDE0B0;
+  border-radius: 5px;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  .img {
+    height: auto;
+  }
+  body > section:first-of-type {
+    margin-top: 75vw;
+  }
+
+}

@@ -1,0 +1,25 @@
+nav {
+  font-family: 'Amatic SC', sans-serif;
+  color: white;
+}
+
+nav ul a {
+  font-size: 1.5rem;
+}
+
+.brand-logo {
+  margin-left: 3vw;
+  font-family: 'Calligraffitti', cursive;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.azul {
+  background-color: #133046;
+}
+
+.icon {
+  width: 4rem;
+  vertical-align: middle;
+  padding-right: 15px;
+}

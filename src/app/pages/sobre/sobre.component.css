@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  color: #133046;
+  font-family: 'Clicker Script', cursive;
+  text-align: center;
+}
+
+.row > h2 {
+    padding-bottom: 2vw;
+}
+
+.head {
+  padding: 13vw 0;
+  text-align: center;
+  background-image: url('/assets/img/bg3.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.about {
+  text-align: left;
+  padding-bottom: 50px 0;
+  display: block;
+}
+
+.about2{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.row {
+  padding: 7vw 15vw;
+  margin-bottom: 0px;
+}
+
+.icon {
+  width: 4rem;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 900px) {
+  .head {
+    padding-top: 35vw;
+  }
+}
+
+@media (max-width: 590px) {
+  .head {
+    padding-top: 60vw;
+  }
+}

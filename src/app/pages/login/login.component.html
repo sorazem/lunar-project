@@ -1,0 +1,36 @@
+<body>
+  <app-navbar></app-navbar>
+  <section>
+    <div class="row user center">
+        <img class="icon" src="/assets/img/user.svg">
+        <h2>Log in</h2>
+      <form>
+        <div class="row">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Senha</label>
+            </div>
+          </div>
+          <button class="btn success" type="submit">Entrar</button>
+          <p>
+            <small>
+              Não tem conta?
+              <a routerLink="#">Cadastre-se aqui.</a>
+            </small>
+            <small>
+              Esqueceu sua senha?
+              <a routerLink="#">Clique aqui para redefinir.</a>
+            </small>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
